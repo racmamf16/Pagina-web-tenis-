@@ -353,12 +353,48 @@ max-width: 350px;
 padding: 1rem 2rem;
 border-radius: 8px;
 font-size: 2rem;
+font-weight: 600;
+color: white;
+}
+.detalles .grid .nuevo{
+  background-color: #08a05c;
+}
+.detalles .grid .size{
+  background-color: #f1365b;
+  display: flex;
+}
+.detalles .grid .size select{
+  border: none;
+  outline: 0;
+  font-size: 2rem;
+  background-color: #f1265b;
+  color: white;
+  cursor: pointer;
 }
 .detalles img{
   min-height: 300px;
   object-fit: contain;
   margin-top: -7rem;
   z-index: -1;
+}
+.detalles input{
+max-width: 700px;
+margin: 0 auto;
+width: 100%;
+margin-bottom: 2rem;
+}
+.detalles .description{
+font-size: 1.1rem;
+max-width: 1300px;
+width: 100%;
+letter-spacing: 1px;
+color: #5f5d5d;
+margin: 0 auto;
+font-weight: 500;
+}
+.detalles .description b{
+font-size: 1.4rem; 
+color: #30333a;
 }
 
 /**********MEDIA******************/
